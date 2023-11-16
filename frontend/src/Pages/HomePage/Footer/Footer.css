@@ -1,0 +1,257 @@
+.footerSection {
+  background: black;
+  height: 120vh;
+}
+.footerSection .footerSectionOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 5rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  gap: 3.5rem;
+}
+.footerSection .footerSectionOne .footerOne .theMainCoin{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+}
+.footerSection .footerSectionOne .footerOne .theMainCoin .coinprofileIc{
+    font-size: 2rem;
+    color: white;
+    padding-left: 1rem;
+}
+.footerSection .footerSectionOne .footerOne .theMainCoin img{
+   height: 3rem;
+   width: 3rem;
+   background: white;
+   border-radius: 5rem;
+   -webkit-border-radius: 5rem;
+   -moz-border-radius: 5rem;
+   -ms-border-radius: 5rem;
+   -o-border-radius: 5rem;
+}
+.footerSection .footerSectionOne .footerOne {
+  /* background: red; */
+}
+.footerSection .footerSectionOne .footerOne .easiest {
+  font-size: 3.7rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+.footerSection .footerSectionOne .footerTwo {
+  /* background: white; */
+  margin-left: 3rem;
+}
+.footerSection .footerOne .myCommunityLink{
+    display: grid;
+    gap: 2rem;
+}
+.footerSection .footerOne .myCommunityLink a{
+    display: flex;
+    align-items: center;
+    color: palevioletred;
+    transition: transform 0.3s ease;
+}
+.footerSection .footerOne .myCommunityLink a:hover {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
+.footerSection .footerOne .myCommunityLink a .myGotJob{
+    font-size: 1.8rem;
+}
+.footerSection .footerOne .myCommunityLink a .iconArrow{
+    padding-right: 1rem;
+}
+.footerSection .footerSectionOne .footerTwo .learnMore{
+   color: rgb(119, 114, 114);
+   font-size: 1.3rem;
+   font-weight: 500;
+}
+.footerSection .footerSectionOne .footerTwo .myAboutLegal{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.footerSection .footerSectionOne .footerTwo .myAboutLegal ul{
+    list-style-type: none;
+    display: grid;
+    gap: 1.5rem;
+}
+.footerSection .footerSectionOne .footerTwo .myAboutLegal li:hover {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+.footerSection .footerSectionOne .footerTwo .myAboutLegal li{
+    list-style-type: none;
+    color: white;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+}
+.footerSection .footerSectionOne .footerTwo .stayTouch{
+    color: rgb(119, 114, 114);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+ }
+ .footerSection .footerSectionOne .footerTwo .myReachoutLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .footerSection .footerSectionOne .footerTwo .myReachoutLink a{
+    /* background: rgb(248, 179, 190); */
+    color: palevioletred;
+    transition: transform 0.3s ease;
+ }
+ .footerSection .footerSectionOne .footerTwo .myReachoutLink a:hover{
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
+}
+.footerSection .footerSectionOne .footerTwo .addressNum{
+    margin-top: 10rem;
+}
+.footerSection .footerSectionOne .footerTwo .addressNum .street{
+    color: rgb(119, 114, 114);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.footerSection .footerSectionOne .footerTwo .addressNum .delwere{
+    color: rgb(119, 114, 114);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.footerSection .footerSectionOne .footerTwo .addressNum a{
+    color: rgb(119, 114, 114);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+@media (max-width: 1200px) {
+      .footerSection .footerSectionOne {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        gap: 3.5rem;
+      }
+      .footerSection .footerSectionOne .footerOne .easiest {
+        font-size: 2.9rem;
+        color: white;
+        margin-bottom: 2rem;
+      }
+      .footerSection .footerSectionOne .footerOne .theMainCoin{
+        margin-top: 16rem;
+        display: flex;
+        align-items: center;
+    }
+    .footerSection .footerSectionOne .footerTwo .addressNum{
+        margin-top: 12rem;
+    }
+    .footerSection .footerOne .myCommunityLink a .myGotJob{
+        font-size: 1.5rem;
+    }
+    .footerSection .footerOne .myCommunityLink a .iconArrow{
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+    .footerSection .footerOne .myCommunityLink{
+        display: grid;
+        gap: 1rem;
+        margin-top: 6rem;
+    }
+    .footerSection .footerSectionOne .footerTwo .myAboutLegal ul{
+        list-style-type: none;
+        display: grid;
+        gap: 1rem;
+    }
+    .footerSection .footerSectionOne .footerTwo .myAboutLegal li{
+        list-style-type: none;
+        color: white;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 1017px) {
+    .footerSection {
+        background: black;
+        height: 130vh;
+      }
+    .footerSection .footerSectionOne {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .footerSection .footerSectionOne .footerOne .theMainCoin{
+        /* margin-top: 22rem; */
+        display: none;
+        /* align-items: center; */
+    }
+    .footerSection .footerSectionOne .footerOne .easiest {
+        font-size: 2.8rem;
+        color: white;
+        margin-bottom: 1rem;
+      }
+    .footerSection .footerOne .myCommunityLink{
+        display: grid;
+        gap: .5rem;
+        margin-top: 3rem;
+    }
+    .footerSection .footerSectionOne .footerTwo {
+        margin-left: .6rem;
+
+      }
+      .footerSection .footerSectionOne .footerTwo .addressNum{
+        margin-top: 12rem;
+    }
+}
+@media (max-width: 600px) {
+    .footerSection {
+        background: black;
+        height: 110vh;
+      }
+      .footerSection .footerSectionOne .footerTwo .addressNum{
+        margin-top: 11rem;
+    }
+}
+@media (max-width: 475px) {
+    .footerSection {
+        background: black;
+        height: 140vh;
+      }
+      .footerSection .footerSectionOne .footerTwo .addressNum{
+        margin-top: 8rem;
+    }
+}
+@media (max-width: 360px) {
+    .footerSection {
+        background: black;
+        height: 180vh;
+      }
+      .footerSection .footerSectionOne .footerTwo .addressNum{
+        margin-top: 7rem;
+    }
+}
+@media (max-width: 340px) {
+    .footerSection {
+        background: black;
+        height: 160vh;
+      }
+}
+@media (max-width: 298px) {
+    .footerSection {
+        background: black;
+        height: 180vh;
+      }
+}

@@ -1,0 +1,261 @@
+.navbarSec {
+  background-color: white;
+  padding-top: 0.8rem;
+  padding-left: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 7rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbarSec .brandName {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: black;
+  
+}
+.navbarSec .getStateds {
+  padding: 10px 27px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 32px;
+  transition: all 400ms ease;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+}
+.navbarSec .getStateds:hover {
+  background: rgb(71, 70, 70);
+}
+@media (max-width: 1200px) {
+  .navbarSec {
+    background-color: white;
+    padding-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .navbarSec {
+    background-color: white;
+    padding-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .navbarSec {
+    background-color: white;
+    padding-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .navbarSec .getStateds {
+    padding: 12px 27px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 32px;
+    transition: all 400ms ease;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+}
+@media (max-width: 768px) {
+  .navbarSec {
+    background-color: white;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  .navbarSec .getStateds {
+    padding: 12px 27px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 32px;
+    transition: all 400ms ease;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+}
+@media (max-width: 600px) {
+  .navbarSec {
+    background-color: white;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-bottom: 1rem;
+  }
+  .navbarSec .getStateds {
+    padding: 12px 27px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 32px;
+    transition: all 400ms ease;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+}
+@media (max-width: 480px) {
+  .navbarSec {
+    background-color: white;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .6rem;
+    padding-left: .6rem;
+    padding-bottom: 1rem;
+  }
+  .navbarSec .getStateds {
+    padding: 10px 27px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 32px;
+    transition: all 400ms ease;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+}
+@media (max-width: 320px) {
+  .navbarSec {
+    background-color: white;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .6rem;
+    padding-left: .6rem;
+    padding-bottom: 1rem;
+  }
+  .navbarSec .getStateds {
+    padding: 10px 27px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 32px;
+    transition: all 400ms ease;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+  .navbarSec .brandName {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+  }
+}

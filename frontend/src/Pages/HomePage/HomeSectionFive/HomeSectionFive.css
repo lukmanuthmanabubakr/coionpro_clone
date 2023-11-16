@@ -1,0 +1,410 @@
+.homeSectionFive{
+    background: #e9def0;
+    height: 140vh;
+    border-bottom: 2px solid black;
+}
+.homeSectionFive .countOnMe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.homeSectionFive .passionate{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(49, 47, 47);
+}
+.homeSectionFive .homeFiveOne{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 8rem;
+   margin-left: 8rem;
+   margin-right: 8rem;
+}
+.homeSectionFive .homeFiveOne img{
+    height: 6rem;
+    width: 6rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+.homeSectionFive .homeFiveOne .myhomeFiveIndex .secondContent{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.homeSectionFive .homeFiveOne .myhomeFiveIndex .firstContent{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+}
+.homeSectionFive .homeFiveOne .myhomeFiveIndex{
+    background: white;
+    gap: 3rem;
+    height: 48vh;
+    width: auto;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding-top: 4rem;
+}
+@media (max-width: 1200px) {
+    .homeSectionFive .countOnMe{
+        font-size: 3rem;
+    }
+    .homeSectionFive .passionate{
+        font-size: 1.3rem;
+        color: rgb(49, 47, 47);
+    }
+    .homeSectionFive .homeFiveOne{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+     }
+     .homeSectionFive .homeFiveOne img{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 6.2rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .homeFiveOne .myhomeFiveIndex .firstContent{
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 500;
+    }
+    .homeSectionFive .homeFiveOne .myhomeFiveIndex .secondContent{
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        font-weight: 500;
+        color: rgb(83, 80, 80);
+
+    }
+}
+@media (max-width: 1024px) {
+    .homeSectionFive .homeFiveOne img{
+        height: 3.5rem;
+        width: 3.5rem;
+        margin-left: 5rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 989px) {
+    .homeSectionFive .homeFiveOne{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+     }
+    .homeSectionFive .homeFiveOne img{
+        height: 3.5rem;
+        width: 3.5rem;
+        margin-left: 5rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .homeFiveOne .myhomeFiveIndex{
+        background: white;
+        gap: 3rem;
+        height: 45vh;
+        width: auto;
+        width: 25%;
+        border: 2px solid black;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        padding-top: 2rem;
+    }
+}
+@media (max-width: 773px) {
+    .homeSectionFive .homeFiveOne{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+     }
+    .homeSectionFive .homeFiveOne img{
+        height: 3.5rem;
+        width: 3.5rem;
+        margin-left: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .homeFiveOne .myhomeFiveIndex{
+        background: white;
+        gap: 3rem;
+        height: 50vh;
+        width: auto;
+        width: 25%;
+        border: 2px solid black;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        padding-top: 2.5rem;
+    }
+}
+@media (max-width: 720px) {
+    .homeSectionFive{
+        background: #e9def0;
+        height: 220vh;
+      }
+      .homeSectionFive .countOnMe{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 7rem;
+        margin-bottom: 1.5rem;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+      .homeSectionFive .homeFiveOne{
+        display: grid;
+        margin-top: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+     }
+     .homeSectionFive .homeFiveOne .myhomeFiveIndex{
+        background: white;
+        margin-bottom: 2rem;
+        height: 45vh;
+        /* width: auto; */
+        width: 140%;
+        border: 2px solid black;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        padding-top: 4rem;
+    }
+    .homeSectionFive .homeFiveOne img{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 18rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .passionate{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: rgb(49, 47, 47);
+    }
+}
+
+
+@media (max-width: 700px) {
+    .homeSectionFive{
+        background: #e9def0;
+        height: 220vh;
+      }
+      .homeSectionFive .countOnMe{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 7rem;
+        margin-bottom: 1.5rem;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+      .homeSectionFive .homeFiveOne{
+        display: grid;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+     }
+     .homeSectionFive .homeFiveOne .myhomeFiveIndex{
+        background: white;
+        margin-bottom: 2rem;
+        height: 45vh;
+        /* width: auto; */
+        width: 140%;
+        border: 2px solid black;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        padding-top: 4rem;
+    }
+    .homeSectionFive .homeFiveOne img{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 18rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .passionate{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: rgb(49, 47, 47);
+    }
+}
+
+@media (max-width: 678px) {
+    .homeSectionFive{
+        background: #e9def0;
+        height: 220vh;
+      }
+      .homeSectionFive .countOnMe{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 7rem;
+        margin-bottom: 1.5rem;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+      .homeSectionFive .homeFiveOne{
+        display: grid;
+        margin-top: 2rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+     }
+     .homeSectionFive .homeFiveOne .myhomeFiveIndex{
+        background: white;
+        margin-bottom: 2rem;
+        height: 45vh;
+        /* width: auto; */
+        width: 138%;
+        border: 2px solid black;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        padding-top: 4rem;
+    }
+    .homeSectionFive .homeFiveOne img{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 18rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .passionate{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: rgb(49, 47, 47);
+    }
+}
+
+@media (max-width: 662px) {
+    .homeSectionFive{
+        background: #e9def0;
+        height: 220vh;
+      }
+      .homeSectionFive .countOnMe{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 7rem;
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+      .homeSectionFive .homeFiveOne{
+        display: grid;
+        margin-top: 2rem;
+        margin-left: 6rem;
+        margin-right: 4rem;
+     }
+     .homeSectionFive .homeFiveOne .myhomeFiveIndex{
+        background: white;
+        margin-bottom: 2rem;
+        height: 45vh;
+        width: auto;
+        border: 2px solid black;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        padding-top: 4rem;
+    }
+    .homeSectionFive .homeFiveOne img{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 13rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .passionate{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: rgb(49, 47, 47);
+    }
+}
+@media (max-width: 662px) {
+    .homeSectionFive .homeFiveOne img{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 9rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 384px) {
+    .homeSectionFive .homeFiveOne img{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 5rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .homeFiveOne .myhomeFiveIndex .secondContent{
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+    }
+}
+@media (max-width: 360px) {
+    .homeSectionFive .homeFiveOne img{
+        height: 4rem;
+        width: 4rem;
+        margin-left: 5rem;
+        margin-bottom: 1rem;
+    }
+    .homeSectionFive .homeFiveOne .myhomeFiveIndex .secondContent{
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,107 @@
+.homeSectionThree{
+    height: 150vh;
+    background: #ffe97f;
+    border-bottom: 2px solid black;
+}
+.homeSectionThree .homeSectionThreeContainer{
+    margin-top: 4rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+.homeSectionThree .homeSectionThreeFirst{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 2rem;
+}
+.homeSectionThree .homeSectionThreeFirst .payOne{
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-weight: 500;
+    color: rgb(39, 37, 37);
+    margin-bottom: 1rem;
+}
+
+.homeSectionThree .homeSectionThreeFirst .anyWhere{
+    font-size: 1.2rem;
+}
+.homeSectionThree .homeSectionThreeFirst .anytime{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.homeSectionThree .homeSectionThreeFirst img{
+    height: 20rem;
+    width: 20rem;
+}
+
+/* second */
+
+.homeSectionThree .homeSectionThreeSecond{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2rem;
+}
+.homeSectionThree .homeSectionThreeSecond img {
+    margin-left: 4rem;
+    height: 15rem;
+    margin-top: -2rem;
+    
+}
+.homeSectionThree .homeSectionThreeSecond .debitCard{
+    font-size: 2rem;
+    margin-top: -1rem;
+    font-weight: 500;
+    color: rgb(39, 37, 37);
+    margin-bottom: 1rem;
+}
+.homeSectionThree .homeSectionThreeSecond .currencies{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.homeSectionThree .homeSectionThreeSecond .fees{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+.homeSectionThree .homeSectionThreeSecond .spend{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+@media (max-width: 1200px) {
+    .homeSectionThree .homeSectionThreeContainer{
+        margin-top: 4rem;
+        padding-left: 5rem;
+    }
+    .homeSectionThree .homeSectionThreeFirst{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 6rem;
+        margin-bottom: 2rem;
+    }
+    .homeSectionThree .homeSectionThreeSecond{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 2rem;
+        gap: 5rem;
+    }
+}
+@media (max-width: 1024px) {
+    .homeSectionThree{
+        display: none;
+    }
+    .homeSectionThree .homeSectionThreeContainer{
+        margin-top: 4rem;
+        padding-left: 3rem;
+    }
+    .homeSectionThree .homeSectionThreeFirst{
+        display: grid;
+        gap: 6rem;
+        grid-template-columns: auto;
+        margin-bottom: 2rem;
+    }
+    .homeSectionThree .homeSectionThreeSecond{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 2rem;
+        gap: 5rem;
+    }
+}

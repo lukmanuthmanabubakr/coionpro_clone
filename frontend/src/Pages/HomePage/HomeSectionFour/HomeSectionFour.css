@@ -1,0 +1,351 @@
+.homeSectionFour {
+  background: #e7b9ff;
+  height: 150vh;
+  border-bottom: 2px solid black;
+}
+.homeSectionFour .ourWord {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10rem;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.myDatalynis {
+  margin-top: 5rem;
+  margin-left: 10rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 4rem;
+}
+.homeSectionFour .myDatalynis .myDatalynisCard:hover {
+  background: whitesmoke;
+  transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+  -moz-transform: scale(1.02, 1.02);
+  -ms-transform: scale(1.02, 1.02);
+  -o-transform: scale(1.02, 1.02);
+}
+.homeSectionFour .myDatalynis .myDatalynisCard {
+  background-color: white;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
+  width: 80%;
+  cursor: pointer;
+  height: 38vh;
+  font-size: 1.5rem;
+  border: 2px solid black;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+}
+
+.homeSectionFour .myDatalynis .myDatalynisCard .myImageContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere .mytweet {
+  font-size: 3rem;
+  color: rgb(49, 47, 47);
+  height: 3.5rem;
+  width: 3.5rem;
+  background: #e7b9ff;
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -1rem;
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub .name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(49, 47, 47);
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub .subName {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(49, 47, 47);
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub {
+  margin-left: 1rem;
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .description {
+  display: flex;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  color: rgb(49, 47, 47);
+}
+.homeSectionFour .myDatalynis .myDatalynisCard img {
+  height: 5rem;
+  width: 5rem;
+  border: 3px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+@media (max-width: 1200px) {
+  .homeSectionFour .ourWord {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 9rem;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .myDatalynis {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard {
+    background-color: white;
+    padding: 1rem;
+    width: 95%;
+    height: 40vh;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+}
+@media (max-width: 951px) {
+  .homeSectionFour {
+    background: #e7b9ff;
+    height: 230vh;
+  }
+  .homeSectionFour .ourWord {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 9rem;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .myDatalynis {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard {
+    background-color: white;
+    padding: 1rem;
+    width: 98%;
+    height: 35vh;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+}
+@media (max-width: 900px) {
+  .homeSectionFour {
+    background: #e7b9ff;
+    height: 230vh;
+  }
+  .homeSectionFour .ourWord {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 9rem;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .myDatalynis {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard {
+    background-color: white;
+    padding: 1rem;
+    width: 98%;
+    height: 35vh;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+}
+@media (max-width: 495px) {
+  .homeSectionFour {
+    background: #e7b9ff;
+    height: 230vh;
+  }
+  .homeSectionFour .ourWord {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 9rem;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .myDatalynis {
+    margin-top: 3rem;
+    margin-left: 0.3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard {
+    background-color: white;
+    padding-top: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 99%;
+    height: 33vh;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub .name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(49, 47, 47);
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub .subName {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(49, 47, 47);
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard img {
+    height: 3rem;
+    width: 3rem;
+    border: 3px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard .twiteere .mytweet {
+    font-size: 2rem;
+    color: rgb(49, 47, 47);
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #e7b9ff;
+    padding: -5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .homeSectionFour {
+    background: #e7b9ff;
+    height: 230vh;
+  }
+  .homeSectionFour .ourWord {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .myDatalynis {
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard {
+    background-color: white;
+    padding: 1rem;
+    width: 98%;
+    height: 38vh;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard .twiteere {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .homeSectionFour .myDatalynis .myDatalynisCard .description {
+    display: flex;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    color: rgb(49, 47, 47);
+    font-size: 1.2rem;
+  }
+}

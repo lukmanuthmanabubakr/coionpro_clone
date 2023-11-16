@@ -1,0 +1,387 @@
+.homeSectionTwo{
+    background: #ff8fa3;
+    height: 130vh;
+    border-bottom: 2px solid black;
+}
+.homeSectionTwo .sendSpend{
+    margin-top: 8rem;
+}
+.homeSectionTwo .sendSpend .earn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(39, 37, 37);
+    margin-bottom: 2rem;
+}
+.homeSectionTwo .sendSpend .crypto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.homeSectionTwo .myContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
+    margin-top: 6rem;
+    gap: 6rem;
+}
+.homeSectionTwo .myContainer .card{
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 4rem;
+    height: 40vh;
+    width: 20%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.homeSectionTwo .myContainer .card .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.homeSectionTwo .myContainer .card .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(39, 37, 37);
+    margin-bottom: 1rem;
+}
+.homeSectionTwo .myContainer .card .description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+/* media query */
+
+
+@media (max-width: 1200px) {
+    .homeSectionTwo .myContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        gap: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 5rem;
+        height: 35vh;
+        width: 350%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .homeSectionTwo{
+        background: #ff8fa3;
+        height: 140vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionTwo .myContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        gap: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 5rem;
+        height: 50vh;
+        width: 350%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+}
+@media (max-width: 1014px) {
+    .homeSectionTwo .myContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        gap: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 5rem;
+        height: 30vh;
+        width: 350%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    .homeSectionTwo .myContainer .card .description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+}
+@media (max-width: 914px) {
+    .homeSectionTwo .myContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        gap: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 3rem;
+        height: 35vh;
+        width: 350%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    .homeSectionTwo .myContainer .card .description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+}
+@media (max-width: 768px) {
+    .homeSectionTwo{
+        background: #ff8fa3;
+        height: 170vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionTwo .sendSpend{
+        margin-top: 4rem;
+    }
+    .homeSectionTwo .myContainer{
+        display: grid;
+        margin-top: 6rem;
+       margin-left: -11rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 3rem;
+        height: 35vh;
+        width: 150%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    .homeSectionTwo .myContainer .card .description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .homeSectionTwo .sendSpend .crypto {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    
+}
+@media (max-width: 600px) {
+    .homeSectionTwo{
+        background: #ff8fa3;
+        height: 210vh;
+        border-bottom: 2px solid black;
+    }
+}
+@media (max-width: 547px) {
+    .homeSectionTwo{
+        background: #ff8fa3;
+        height: 210vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionTwo .sendSpend{
+        margin-top: 4rem;
+    }
+    .homeSectionTwo .myContainer{
+        display: grid;
+        margin-top: 6rem;
+       margin-left: -9rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 3rem;
+        height: 35vh;
+        width: 140%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    .homeSectionTwo .myContainer .card .description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .homeSectionTwo .sendSpend .crypto {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    
+}
+@media (max-width: 508px) {
+    .homeSectionTwo{
+        background: #ff8fa3;
+        height: 210vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionTwo .sendSpend{
+        margin-top: 4rem;
+    }
+    .homeSectionTwo .myContainer{
+        display: grid;
+        margin-top: 6rem;
+       margin-left: -4rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 3rem;
+        height: 35vh;
+        width: 120%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    .homeSectionTwo .myContainer .card .description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .homeSectionTwo .sendSpend .crypto {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    
+}
+@media(max-width: 400px) {
+    .homeSectionTwo{
+        background: #ff8fa3;
+        height: 230vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionTwo .myContainer{
+        display: grid;
+        margin-top: 6rem;
+       margin-left: -2rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 3rem;
+        height: 40vh;
+        width: 109%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    .homeSectionTwo .sendSpend .crypto {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+@media(max-width: 320px) {
+    .homeSectionTwo{
+        background: #ff8fa3;
+        height: 280vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionTwo .myContainer{
+        display: grid;
+        margin-top: 6rem;
+       margin-left: -2rem;
+    }
+    .homeSectionTwo .myContainer .card{
+        background-color: white;
+        border: 1px solid black;
+        padding-top: 3rem;
+        height: 50vh;
+        width: 109%;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    .homeSectionTwo .sendSpend .crypto {
+        display: none;
+    }
+}
