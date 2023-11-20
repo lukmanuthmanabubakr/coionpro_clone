@@ -38,7 +38,7 @@ const Register = () => {
   const loginUser = () => {};
 
   return (
-    <div className="myLoginPage">
+    <div className="register">
       <div className="myLogins">
         <NavLink to="/">
           <img src={coingLogos} alt="coinprofile logo" />
@@ -100,7 +100,7 @@ const Register = () => {
         </p>
 
         <p className="PrivacyPolicy">
-          By creating an account, you accept our <NavLink>Terms of use</NavLink> and <NavLink>Privacy Policy</NavLink>
+          By creating an account, you accept our <NavLink target="_blank" to="https://base.coinprofile.com/legal/terms-of-service">Terms of use</NavLink> and <NavLink target="_blank" to="https://base.coinprofile.com/legal/privacy-policy">Privacy Policy</NavLink>
         </p>
       </div>
     </div>

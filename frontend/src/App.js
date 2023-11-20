@@ -7,6 +7,7 @@ import Register from './Pages/Auth/Register/Register';
 import ForgotPassword from './Pages/Auth/ForgotPassword/ForgotPassword';
 import ResetPassword from './Pages/Auth/ResetPassword/ResetPassword';
 import OtpAccessCode from './Pages/Auth/OtpAccessCode/OtpAccessCode';
+import Verify from './Pages/Auth/Verify/Verify';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/reset" element={ <ForgotPassword/>}/>
         <Route path="/reset-password" element={ <ResetPassword/> }/>
         <Route path="/login-with-code/:email" element={ <OtpAccessCode/> }/>
+        <Route path="/verify" element={ <Verify/> }/>
       </Routes>
       <Loader/>
     </div>

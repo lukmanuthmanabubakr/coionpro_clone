@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../Login/Login.css";
 import coingLogos from "../../../Asset/coin_profile_image-removebg-preview.png";
 import { NavLink } from "react-router-dom";
 import "./ForgotPassword.css"
@@ -20,7 +19,7 @@ const ForgotPassword = () => {
   const loginUser = () => {};
 
   return (
-    <div className="myLoginPage">
+    <div className="forgotPassword">
       <div className="myLogins">
         <NavLink to="/">
           <img src={coingLogos} alt="coinprofile logo" />

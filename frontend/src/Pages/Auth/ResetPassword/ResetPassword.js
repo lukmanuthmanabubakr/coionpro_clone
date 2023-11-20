@@ -42,7 +42,7 @@ const ResetPassword = () => {
   const loginUser = () => {};
 
   return (
-    <div className="myLoginPage">
+    <div className="resetPassword">
       <div className="myLogins">
         <NavLink to="/">
           <img src={coingLogos} alt="" />

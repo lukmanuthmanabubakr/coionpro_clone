@@ -20,7 +20,7 @@ const OtpAccessCode = () => {
   const loginUser = () => {};
 
   return (
-    <div className="myLoginPage">
+    <div className="otpAccessCode">
       <div className="myLogins">
         <NavLink to="/">
           <img src={coingLogos} alt="coinprofile logo" />
@@ -38,12 +38,19 @@ const OtpAccessCode = () => {
             value={loginCode}
             onChange={handleInputChange}
           />
-          <p>
+          <p className="emailAccessCode">
             Check your email for login access code
           </p>
           <button className="signInButton">Proceed To Login</button>
-
         </form>
+
+        <p className="emailRespond">
+          Didn't get the email? <b>Click to respond</b>
+        </p>
+
+        <p className="PrivacyPolicy">
+          By creating an account, you accept our <NavLink target="_blank" to="https://base.coinprofile.com/legal/terms-of-service">Terms of use</NavLink> and <NavLink target="_blank" to="https://base.coinprofile.com/legal/privacy-policy">Privacy Policy</NavLink>
+        </p>
       </div>
     </div>
   );
