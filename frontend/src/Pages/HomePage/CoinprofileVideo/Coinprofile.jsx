@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Conprofile.css"
+import "./Conprofile.css";
 
 const VideoPlayer = () => {
   return (
