@@ -8,10 +8,21 @@ import ForgotPassword from './Pages/Auth/ForgotPassword/ForgotPassword';
 import ResetPassword from './Pages/Auth/ResetPassword/ResetPassword';
 import OtpAccessCode from './Pages/Auth/OtpAccessCode/OtpAccessCode';
 import Verify from './Pages/Auth/Verify/Verify';
+import Navbar from "./Pages/HomePage/Navbar/Navbar";
+import useLocalStorage from "use-local-storage";
+
 
 function App() {
+  const [myTheme, setMyTheme] = useLocalStorage("theme" ? "dark" : "light");
+  
+
+  const switchTheme = () => {
+    const newTheme = myTheme === "light" ? "dark" : "light";
+    setMyTheme(newTheme);
+  };
   return (
-    <div className="App">
+    <div className="App" data-theme={myTheme}>
+            <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/login" element={<Login />}/>

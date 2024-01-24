@@ -228,7 +228,7 @@
     padding-bottom: 1rem;
   }
   .navbarSec .getStateds {
-    padding: 10px 27px;
+    padding: 10px 20px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     background: rgb(0, 0, 0);
@@ -253,7 +253,7 @@
     -o-transition: all 400ms ease;
   }
   .navbarSec .brandName {
-    font-size: 1.5rem;
+    font-size: 25px;
     font-weight: 600;
     font-family: sans-serif;
     
