@@ -10,7 +10,7 @@ import BackToTop from '../../BackToTop/BackToTop'
 const HomePage = () => {
   return (
     <div>
-        {/* <HomeSectionOne /> */}
+        <HomeSectionOne />
         {/* 
         <HomeSectionTwo/>
         <HomeSectionThree/>

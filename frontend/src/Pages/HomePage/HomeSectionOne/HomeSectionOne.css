@@ -114,7 +114,22 @@
     -moz-transition: all 400ms ease;
     -ms-transition: all 400ms ease;
     -o-transition: all 400ms ease;
+    animation: moveUpDown 2s infinite alternate;
+    -webkit-animation: moveUpDown 2s infinite alternate;
 }
+
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+      -webkit-transform: translateY(-5px);
+      -moz-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      -o-transform: translateY(-5px);
+}
+  }
 .homeSectionOne .homeSectionOneSave .getVid .works span {
     padding-right: 9px;
     font-size: 1.8rem;

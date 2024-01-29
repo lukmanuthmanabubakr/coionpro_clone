@@ -18,7 +18,7 @@ const HomeSectionOne = () => {
       <div className="homeSectionOneContainer">
         <div className="homeSectionOneSave" data-aos="fade-right">
           <p className="spend">
-            Save, spend and earn in <br /> dollars
+            Save, spend and earn in dollars
           </p>
 
           <div className="goVerified">
@@ -41,6 +41,8 @@ const HomeSectionOne = () => {
               <span>Save </span> and stash your Dollars without worries
             </p>
           </div>
+
+          
 
           <div className="getVid">
             <NavLink className="toGet">
